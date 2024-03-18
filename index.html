@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ברכה לפורים</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ברכת פורים לאביגיל</h1>
+        <div class="card" id="greetingCard">
+            <img src="image1.jpeg" alt="Purim Image" id="purimImage">
+            <div id="sentenceContainer">
+                <div class="sentence">חג פורים שמח!</div>
+                <div class="sentence">שתהיה לך שנה שמחה ומוצלחת</div>
+                <div class="sentence">שהמשך השבוע יהיה מהנה</div>
+                <div class="sentence">שיהיה לך יום מוצלח</div>
+            </div>
+            <button id="prevSentence" class="arrowButton">&lt;</button>
+            <button id="nextSentence" class="arrowButton">&gt;</button>
+            <div class="purimImages">
+                <img src="image2.jpg" alt="Purim Image 2" class="purimImage">
+                <img src="image3.jpg" alt="Purim Image 3" class="purimImage">
+                <img src="image4.jpeg" alt="Purim Image 4" class="purimImage">
+            </div>
+        </div>
+        <div class="sideButtons">
+            <button id="toggleConfetti" class="sideButton">כבה/הפעל אפקט רקע</button>
+            <button id="toggleColorTheme" class="sideButton">שנה צבעים</button>
+            <button id="toggleMusic" class="sideButton">הפסק/הפעל מוזיקה</button>
+        </div>
+    </div>
+    <div id="confetti"></div>
+    <script src="script.js"></script>
+</body>
+</html>
